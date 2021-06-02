@@ -19,5 +19,6 @@ int main() {
     for (int i=0 ; i < length  ; i++) {
         printf("res[i] = %d\n", res[i]);
     }
+
 }
 
