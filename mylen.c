@@ -14,5 +14,5 @@ int mylen(char *s)
 int main()
 {
     char *s = "abc";
-    printf("%d", mylen(s));
+    printf("%d\n", mylen(s));
 }
