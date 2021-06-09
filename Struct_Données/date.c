@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <Exo1.h>
+#include "date.h"
 
+// Fonction qui renvoie un pointeur qui pointe vers Date
 Date *create_date(int day, int month, int year)
 {
 
