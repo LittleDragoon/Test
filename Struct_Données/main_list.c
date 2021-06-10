@@ -10,7 +10,7 @@ void main()
     Date *p = create_date(11, 2, 2000);
 
     List *list = malloc(sizeof(List));
-    insert(d, list);
+    list->value = d;
     insert(p, list);
 
     print_list(list);
