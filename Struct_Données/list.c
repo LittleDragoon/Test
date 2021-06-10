@@ -10,6 +10,12 @@ List *insert(Date *date, List *list)
     return res;
 }
 
+{
+    List *res = malloc(sizeof(List));
+    res->value = NULL;
+    res->next = NULL;
+    return res;
+}
 void print_list(List *list)
 {
 
