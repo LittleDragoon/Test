@@ -11,4 +11,7 @@ typedef struct _List
 
 } List;
 
+List *insert(Date *date, List *list);
+void print_list(List *list);
+
 #endif
